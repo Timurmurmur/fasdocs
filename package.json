@@ -1,0 +1,77 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest --watch"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/native": "^5.6.1",
+    "@react-navigation/stack": "^5.6.2",
+    "@testing-library/jest-native": "^3.1.0",
+    "@types/jest": "^26.0.5",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/react-redux": "^7.1.9",
+    "axios": "^0.19.2",
+    "expo": "~38.0.1",
+    "expo-av": "~8.2.1",
+    "expo-constants": "~9.1.1",
+    "expo-file-system": "~9.0.1",
+    "expo-local-authentication": "~9.1.1",
+    "expo-media-library": "~8.2.1",
+    "expo-splash-screen": "~0.3.1",
+    "expo-status-bar": "^1.0.0",
+    "expo-updates": "~0.2.10",
+    "jest-expo": "^38.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.27.0",
+    "react": "~16.11.0",
+    "react-dom": "~16.11.0",
+    "react-native": "0.63",
+    "react-native-gesture-handler": "~1.6.0",
+    "react-native-reanimated": "~1.9.0",
+    "react-native-responsive-fontsize": "^0.4.3",
+    "react-native-screens": "~2.9.0",
+    "react-native-svg": "12.1.0",
+    "react-native-testing-library": "^2.1.1",
+    "react-native-unimodules": "^0.10.1",
+    "react-native-web": "~0.11.7",
+    "react-native-webview": "9.4.0",
+    "react-navigation": "^4.4.0",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-observable": "^1.2.0",
+    "redux-persist": "^6.0.0",
+    "rn-pdf-reader-js": "^4.1.0",
+    "rxjs": "^6.6.0",
+    "text-encoding-polyfill": "^0.6.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@types/react": "~16.9.41",
+    "@types/react-native": "0.63",
+    "babel-jest": "~25.2.6",
+    "jest": "^26.1.0",
+    "react-test-renderer": "~16.11.0",
+    "typescript": "~3.9.5"
+  },
+  "private": true,
+  "name": "fas",
+  "version": "1.0.0",
+  "jest": {
+    "preset": "react-native",
+    "setupFilesAfterEnv": [
+      "@testing-library/jest-native/extend-expect"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|@react-native-community|@react-navigation)"
+    ],
+    "setupFiles": [
+      "./node_modules/react-native-gesture-handler/jestSetup.js"
+    ]
+  }
+}

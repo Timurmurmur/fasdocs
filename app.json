@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "FAS Docs",
+    "slug": "fasdocs",
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bnet24.fas",
+      "buildNumber": "1.2.0",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "This app will optionally use Face ID or Touch ID to save login",
+        "UIViewControllerBasedStatusBarAppearance": "YES",
+        "NSPhotoLibraryAddUsageDescription": "YES"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.bnet24.fas"
+    }
+  },
+  "displayName": "ФАС Документы",
+  "name": "FAS Docs"
+}

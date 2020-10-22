@@ -1,0 +1,1 @@
+export const emailChecker = (data: string) => /[0-9a-z_-]+@[0-9a-z_-]+\.[a-z]{2,5}/i.test(data);
